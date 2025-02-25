@@ -1,13 +1,12 @@
 # Pin Counter
 
-## Description
 This script allows you to scrape and count the number of pins from a specified Pinterest profile. It uses Selenium for web automation and BeautifulSoup for HTML parsing.
 
 Note: Tested on 15k unsorted pins.
 
 ## Usage
 1. Ensure you have Python installed on your machine.
-2. Install Chrome (Don't use portable version) and download ChromeDriver. They must be the same version, you can download it from[here](https://googlechromelabs.github.io/chrome-for-testing/) (Srcroll down, search for chromedriver of your version) or from [Releases](https://github.com/AlestackOverglow/pin-counter/releases).
+2. Install Chrome (Don't use portable version) and download ChromeDriver. They must be the same version, you can download it from [here](https://googlechromelabs.github.io/chrome-for-testing/) (Srcroll down, search for chromedriver of your version) or from [Releases](https://github.com/AlestackOverglow/pin-counter/releases).
 3. Install the required packages:
    ```bash
    pip install requests beautifulsoup4 selenium
